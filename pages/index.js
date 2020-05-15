@@ -23,23 +23,23 @@ export default function Home() {
           <div className="row">
             <div className="one-third column elevator-pitch">
               <h2 className="elevator-pitch-multiplier">🚁</h2>
-              <h5 className="elevator-pitch-heading">Drone Photography</h5>
+              <h4 className="elevator-pitch-heading">Drone Photography</h4>
               <p className="elevator-pitch-description">Utilize our drone photography services</p>
             </div>
             <div className="one-third column elevator-pitch">
               <h2 className="elevator-pitch-multiplier">⌛</h2>
-              <h5 className="elevator-pitch-heading">Fast & Cost Effective</h5>
+              <h4 className="elevator-pitch-heading">Fast & Cost Effective</h4>
               <p className="elevator-pitch-description">Our services have a quick turnaround, and are more affordable than alternative ariel photography solutions</p>
             </div>
             <div className="one-third column elevator-pitch">
               <h2 className="elevator-pitch-multiplier">❤️</h2>
-              <h5 className="elevator-pitch-heading">100% Customer Satisfaction</h5>
+              <h4 className="elevator-pitch-heading">100% Customer Satisfaction</h4>
               <p className="elevator-pitch-description">Check our portfolio and reviews for more</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="section get-help">
+      <div className="section border-content">
         <div className="container">
           <h3 className="section-heading">Testimonials</h3>
           <p className="section-description">

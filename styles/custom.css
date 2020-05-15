@@ -46,12 +46,10 @@
 }
 .elevator-pitch-description {
   opacity: .8;
-  font-weight: 300;
+  font-size: larger;
 }
 
-/* Help
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
+.border-content {
   border-bottom: 1px solid #ddd;
 }
 
