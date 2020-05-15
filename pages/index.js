@@ -7,9 +7,10 @@ export default function Home() {
         <div className="container hero-container">
           <div className="row">
             <div className="one-half column">
-              <h1 className="hero-heading">RM Ariel Photography</h1>
-              <h4 className="hero-heading">Professional photography based in Cambridgeshire</h4>
+              <h1 className="hero-heading">RM Ariel</h1>
+              <h4 className="hero-heading">Drone photography based in Cambridgeshire</h4>
               <a className="button button-primary" href="#">Enquire</a>
+              <a className="button button-secondary" href="#">Portfolio</a>
             </div>
             <div className="one-half column hero-images">
               <img className="hero-image" src="./images/drone.png" />
@@ -40,21 +41,24 @@ export default function Home() {
       </div>
       <div className="section get-help">
         <div className="container">
-          <h3 className="section-heading">Need help getting started?</h3>
-          <p className="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
-          <a className="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
+          <h3 className="section-heading">Testimonials</h3>
+          <p className="section-description">
+            <i>'RM Ariel is a great company'</i> - Joe Bloggs <br/>
+            <i>'Amazing work!'</i> - Alice Aardvark
+          </p>
+          <a className="button button-primary" href="#">Enquire</a>
         </div>
       </div>
       <div className="section categories">
         <div className="container">
-          <h3 className="section-heading">Responsive Images</h3>
-          <p className="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+          <h3 className="section-heading">Portfolio</h3>
+          <p className="section-description">See samples of our work</p>
           <div className="row">
             <div className="one-half column category">
-              <img className="u-max-full-width" src="images/placeholder.png" />
+              <img className="u-max-full-width" src="images/cambridge.jpg" />
             </div>
             <div className="one-half column category">
-              <img className="u-max-full-width" src="images/placeholder.png" />
+              <img className="u-max-full-width" src="images/london.jpg" />
             </div>
           </div>
         </div>
