@@ -4,63 +4,61 @@ export default function Home() {
   return (
     <Layout>
       <div className="section hero">
-        <div className="container">
+        <div className="container hero-container">
           <div className="row">
             <div className="one-half column">
-              <h4 className="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
-              <a className="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
+              <h1 className="hero-heading">RM Ariel Photography</h1>
+              <h4 className="hero-heading">Professional photography based in Cambridgeshire</h4>
+              <a className="button button-primary" href="#">Enquire</a>
             </div>
-            <div className="one-half column phones">
-              <img className="phone" src="images/iphone.png" />
-              <img className="phone" src="images/iphone.png" />
+            <div className="one-half column hero-images">
+              <img className="hero-image" src="./images/drone.png" />
             </div>
           </div>
         </div>
       </div>
-      <div class="section values">
-    <div class="container">
-      <div class="row">
-        <div class="one-third column value">
-          <h2 class="value-multiplier">67%</h2>
-          <h5 class="value-heading">Purchase Increase</h5>
-          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">90%</h2>
-          <h5 class="value-heading">Multi-device Users</h5>
-          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-        </div>
-        <div class="one-third column value">
-          <h2 class="value-multiplier">66%</h2>
-          <h5 class="value-heading">Sad Users</h5>
-          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section get-help">
-    <div class="container">
-      <h3 class="section-heading">Need help getting started?</h3>
-      <p class="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
-      <a class="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
-    </div>
-  </div>
-
-  <div class="section categories">
-    <div class="container">
-      <h3 class="section-heading">Responsive Images</h3>
-      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
-      <div class="row">
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png" />
-        </div>
-        <div class="one-half column category">
-          <img class="u-max-full-width" src="images/placeholder.png" />
+      <div className="section elevator-pitches">
+        <div className="container">
+          <div className="row">
+            <div className="one-third column elevator-pitch">
+              <h2 className="elevator-pitch-multiplier">🚁</h2>
+              <h5 className="elevator-pitch-heading">Drone Photography</h5>
+              <p className="elevator-pitch-description">Utilize our drone photography services</p>
+            </div>
+            <div className="one-third column elevator-pitch">
+              <h2 className="elevator-pitch-multiplier">⌛</h2>
+              <h5 className="elevator-pitch-heading">Fast & Cost Effective</h5>
+              <p className="elevator-pitch-description">Our services have a quick turnaround, and are more affordable than alternative ariel photography solutions</p>
+            </div>
+            <div className="one-third column elevator-pitch">
+              <h2 className="elevator-pitch-multiplier">❤️</h2>
+              <h5 className="elevator-pitch-heading">100% Customer Satisfaction</h5>
+              <p className="elevator-pitch-description">Check our portfolio and reviews for more</p>
+            </div>
+          </div>
         </div>
       </div>
+      <div className="section get-help">
+        <div className="container">
+          <h3 className="section-heading">Need help getting started?</h3>
+          <p className="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
+          <a className="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
+        </div>
       </div>
-    </div>
+      <div className="section categories">
+        <div className="container">
+          <h3 className="section-heading">Responsive Images</h3>
+          <p className="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+          <div className="row">
+            <div className="one-half column category">
+              <img className="u-max-full-width" src="images/placeholder.png" />
+            </div>
+            <div className="one-half column category">
+              <img className="u-max-full-width" src="images/placeholder.png" />
+            </div>
+          </div>
+        </div>
+      </div>
     </Layout>
     );
 }
