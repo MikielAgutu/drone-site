@@ -2,8 +2,8 @@
 export default function Navbar() {
   return (
     <div class="topnav" id="topnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
+      <a href="#home" class="active">RM Ariel</a>
+      <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
       <a className="icon" onClick={() => responsiveToggle()}>
