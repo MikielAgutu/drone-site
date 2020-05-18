@@ -3,7 +3,8 @@ import Link from 'next/link'
 export default function Navbar() {
   return (
     <div className="topnav" id="topnav">
-      <Link href="/"><a>RM Ariel</a></Link>
+      <Link href="/"><a>RM Aerial</a></Link>
+      <Link href="our-services"><a>Our Services</a></Link>
       <Link href="portfolio"><a>Portfolio</a></Link>
       <Link href="contact"><a>Contact</a></Link>
       <Link href="about"><a>About</a></Link>

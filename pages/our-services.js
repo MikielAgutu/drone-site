@@ -1,13 +1,13 @@
 import Layout from '../components/layout'
 
-export default function About() {
+export default function OurServices() {
   return (
     <Layout>
       <div className="section">
         <div className="container">
-          <h3 className="section-heading">About</h3>
+          <h3 className="section-heading">Our Services</h3>
           <p className="section-description">
-            About RM Aerial
+            What we do
           </p>
         </div>
       </div>

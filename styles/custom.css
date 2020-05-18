@@ -4,6 +4,10 @@
   border-radius: 100px;
 }
 
+p {
+  font-size: larger;
+}
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -46,7 +50,6 @@
 }
 .elevator-pitch-description {
   opacity: .8;
-  font-size: larger;
 }
 
 .border-content {
@@ -92,6 +95,10 @@
   .hero-heading {
     font-size: 2.4rem;
   }
+  .hero-title {
+    font-size: 3.0rem;
+    font-weight: 600;
+  }
 }
 
 /* Bigger than 750 */
@@ -125,6 +132,10 @@
   .categories {
     padding: 15rem 0 8rem;
   }
+  .hero-title {
+    font-size: 3.0rem;
+    font-weight: 600;
+  }
 }
 
 /* Bigger than 1000 */
@@ -145,6 +156,10 @@
   .hero-image + .hero-image {
     top: -14rem;
     max-height: 570px;
+  }
+  .hero-title {
+    font-size: 5.0rem;
+    font-weight: 600;
   }
 }
 
