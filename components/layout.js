@@ -7,6 +7,13 @@ export default function Layout({ children }) {
       <Header />
       <Navbar />
       {children}
+      <footer>
+      <div className="container">
+        <div className="row">
+          Copyright RM Aerial 2020
+        </div>
+      </div>
+      </footer>
     </>
     );
 }

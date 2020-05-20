@@ -66,6 +66,40 @@ p {
   margin-bottom: 4rem;
 }
 
+.hero-background {
+  background-image: url("../public/images/panorama.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  background-color: white;
+  border-radius: 25px;
+  padding: 7%;
+}
+
+strong {
+  font-size: large;
+}
+
+.section {
+  padding: 8rem 0 7rem;
+}
+
+.button-large {
+  font-size: large;
+}
+
+.button-secondary {
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 2%;
+}
+
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
