@@ -2,16 +2,18 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className="topnav" id="topnav">
-      <Link href="/"><a>RM Aerial</a></Link>
-      <Link href="our-services"><a>Our Services</a></Link>
-      <Link href="portfolio"><a>Portfolio</a></Link>
-      <Link href="contact"><a>Contact</a></Link>
-      <Link href="about"><a>About</a></Link>
-      <a className="icon" onClick={() => responsiveToggle()}>
-        <i className="fa fa-bars"></i>
-      </a>
-  </div>
+    <div>
+        <div className="topnav" id="topnav">
+          <Link href="/"><a>Home</a></Link>
+          <Link href="our-services"><a>Our Services</a></Link>
+          <Link href="portfolio"><a>Portfolio</a></Link>
+          <Link href="contact"><a>Contact</a></Link>
+          <Link href="about"><a>About</a></Link>
+          <a className="icon" onClick={() => responsiveToggle()}>
+            <i className="fa fa-bars"></i>
+          </a>
+      </div>
+    </div>
     );
 }
 

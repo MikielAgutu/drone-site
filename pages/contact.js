@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout>
       <div className="section">
         <div className="container">
-          <h3 className="section-heading">Contact</h3>
+          <h1 className="section-heading">Contact</h1>
           <p className="section-description">
             Contact us
           </p>
