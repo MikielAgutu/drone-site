@@ -19,32 +19,42 @@ export default function OurServices() {
           </div>
           <div className="row services-row">
             <div className="one-half column">
-              <h3>Building Surveys</h3>
-              <p>Description</p>
-              <img className="u-max-full-width" src="images/survey.jpg" />
-            </div>
-            <div className="one-half column">
-              <h3>Construction</h3>
-              <p>Description</p>
-              <img className="u-max-full-width" src="images/construction.jpg" />
-            </div>
-          </div>
-          <div className="row services-row">
-            <div className="one-half column">
-              <h3>Parites & Weddings</h3>
-              <p>Description</p>
+              <h3>Parties & Weddings</h3>
+              <p>An eye in the sky to capture the drama of events as they unfold</p>
               <img className="u-max-full-width" src="images/wedding.jpg" />
             </div>
             <div className="one-half column">
               <h3>Real Estate</h3>
-              <p>Description</p>
+              <p>Promotional imagery of your buildings from a unique angle</p>
               <img className="u-max-full-width" src="images/house.jpg" />
+            </div>
+          </div>
+          <div className="row services-row">
+            <div className="one-half column">
+              <h3>Building Surveys</h3>
+              <p>
+                A fast, affordable, low risk way of inspecting hard to reach areas.
+                We'll provide the imagery for your continued review
+              </p>
+              <img className="u-max-full-width" src="images/survey.jpg" />
+            </div>
+            <div className="one-half column">
+              <h3>Construction</h3>
+              <p>
+                Monitor the construction process from commencement to completion.
+                Images, videos, and time-lapse packages
+              </p>
+              <img className="u-max-full-width" src="images/construction.jpg" />
             </div>
           </div>
           <div className="row services-row">
             <div className="column">
               <h3>Bespoke Aerial Photography & Video</h3>
-              <p>Description</p>
+              <p>
+                We're happy to work with you for all your aerial imaging needs.<br/>
+                Don't hesitate to contact us, and we can discuss your requirements<br/><br/>
+                <Link href="contact"><a className="button button-primary">Enquire</a></Link>
+              </p>
               <img className="u-max-full-width" src="images/drone.jpg" />
             </div>
           </div>

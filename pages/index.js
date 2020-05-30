@@ -79,7 +79,8 @@ export default function Home() {
               Based in Cambridgeshire
               </h3>
               <p>
-                We're happy to travel to sites throughout Cambridgeshire
+                We primarily travel to sites throughout Cambridgeshire. However we are happy to provide a
+                quote for any job in the UK.
               </p>
               <Link href="contact"><a className="button button-primary button-large">Enquire</a></Link>
                 <Link href="our-services"><a className="button button-secondary button-large">Our Services</a></Link>

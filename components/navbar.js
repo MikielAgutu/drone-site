@@ -9,6 +9,7 @@ export default function Navbar() {
           <Link href="portfolio"><a>Portfolio</a></Link>
           <Link href="contact"><a>Contact</a></Link>
           <Link href="about"><a>About</a></Link>
+          <Link href="faq"><a>FAQ</a></Link>
           <a className="icon" onClick={() => responsiveToggle()}>
             <i className="fa fa-bars"></i>
           </a>
