@@ -6,6 +6,7 @@ export default function Faq() {
       <div className="section">
         <div className="container">
           <h1 className="section-heading">FAQ</h1>
+          <hr />
           <div className="row">
             <div className="one-half column">
               <h4>Can you fly in built up areas?</h4>

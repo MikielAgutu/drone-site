@@ -7,6 +7,7 @@ export default function OurServices() {
       <div className="section">
         <div className="container">
           <h1 className="section-heading">Our Services</h1>
+          <hr />
           <div className="row">
             <div className="column">
             <img className="logo-image" src="images/logo.png" />

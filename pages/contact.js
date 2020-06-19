@@ -6,6 +6,7 @@ export default function Contact() {
       <div className="section">
         <div className="container">
           <h1 className="section-heading">Contact</h1>
+          <hr />
           <p>
             To enquire about our services, or for any other question, you can contact us
             via the following:

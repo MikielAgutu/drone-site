@@ -6,6 +6,7 @@ export default function About() {
       <div className="section">
         <div className="container">
           <h1 className="section-heading">About</h1>
+          <hr />
           <p className="section-description">
             RM Aerial was founded in 2020 by two entrepreneurs who saw an opportunity to offer a new way of capturing imagery.<br/>
             Using drone technology, we envisioned a way of providing practical, fast, and low-risk aerial imagery services.<br/>
