@@ -9,7 +9,7 @@ export default function Contact() {
           <hr />
           <p>
             To enquire about our services, or for any other question, you can contact us
-            via the following:
+            via the following channels:
             <br />
             <strong>
               Email:{" "}
@@ -18,7 +18,7 @@ export default function Contact() {
               </a>
             </strong>
             <br />
-            <strong>Mobile: 0707070</strong>
+            <strong>Mobile: 07518123870</strong>
           </p>
         </div>
       </div>

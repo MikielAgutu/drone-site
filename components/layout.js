@@ -10,7 +10,8 @@ export default function Layout({ children }) {
       <footer>
       <div className="container">
         <div className="row">
-          Copyright RM Aerial 2020
+          Copyright RM Aerial 2020<br/>
+          Company Number 12641073
         </div>
       </div>
       </footer>

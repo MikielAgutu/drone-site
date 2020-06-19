@@ -14,13 +14,11 @@ export default function About() {
           </p>
           <div className="row services-row">
             <div className="one-half column">
-            <img className="u-max-full-width" src="images/headshot.jpg" />
               <h3>Rhys Jones</h3>
               <p>With a background in building control, Rhys knows building sites like the back of his hand</p>
 
             </div>
             <div className="one-half column">
-            <img className="u-max-full-width" src="images/headshot.jpg" />
               <h3>Mikiel Agutu</h3>
               <p>A software engineer who is comfortable with all things tech.</p>
             </div>

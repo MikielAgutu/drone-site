@@ -18,8 +18,13 @@ export default function Home() {
                   <br />
                   First-Class Aerial Imaging
                 </h4>
-                <Link href="contact"><a className="button button-primary">Enquire</a></Link>
-                <Link href="portfolio"><a className="button button-secondary">Portfolio</a></Link>
+                <Link href="contact">
+                  <a className="button button-primary">Enquire</a>
+                </Link>
+                {" "}
+                <Link href="portfolio">
+                  <a className="button button-secondary">Portfolio</a>
+                </Link>
               </div>
             </div>
             <div className="one-half column"></div>
@@ -40,7 +45,7 @@ export default function Home() {
               <h2 className="elevator-pitch-multiplier">⌛</h2>
               <h4 className="elevator-pitch-heading">Fast & Cost Effective</h4>
               <p className="elevator-pitch-description">
-              With drone technology we provide a fast and cost effective service. Our work is uncomplicated and can be tailored to suit any budget.
+              With drone technology we provide a fast and cost effective service. Our work is uncomplicated and can be tailored to suit your budget.
               </p>
             </div>
             <div className="one-third column elevator-pitch">
@@ -82,8 +87,13 @@ export default function Home() {
                 We primarily travel to sites throughout Cambridgeshire. However we are happy to provide a
                 quote for any job in the UK.
               </p>
-              <Link href="contact"><a className="button button-primary button-large">Enquire</a></Link>
-                <Link href="our-services"><a className="button button-secondary button-large">Our Services</a></Link>
+              <Link href="contact">
+                <a className="button button-primary button-large">Enquire</a>
+              </Link>
+              {" "}
+              <Link href="our-services">
+                <a className="button button-secondary button-large">Our Services</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -97,10 +107,10 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="one-half column category">
-              <img className="u-max-full-width" src="images/cambridge.jpg" />
+              <img className="u-max-full-width" src="images/portfolio-1.jpg" />
             </div>
             <div className="one-half column category">
-              <img className="u-max-full-width" src="images/london.jpg" />
+              <img className="u-max-full-width" src="images/portfolio-3.jpg" />
             </div>
           </div>
         </div>

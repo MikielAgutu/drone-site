@@ -67,7 +67,7 @@ p {
 }
 
 .hero-background {
-  background-image: url("../public/images/panorama.jpg");
+  background-image: url("../public/images/hero-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
