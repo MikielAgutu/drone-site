@@ -12,8 +12,10 @@ export default function OurServices() {
             <div className="column">
             <img className="logo-image" src="images/logo.png" />
               <p>
-                We offer high quality aerial photos and videos for projects of all kinds<br/>
-                Here are examples of the sort of services we offer<br/>
+                We offer high quality aerial photos and videos for projects of all kinds.<br/>
+                We primarily travel to sites in Cambridgeshire, though we are happy to provide a
+                quote for any job in the UK.<br/>
+                Here are examples of the of services we offer.<br/>
               </p>
             </div>
           </div>
