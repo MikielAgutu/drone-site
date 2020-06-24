@@ -19,19 +19,6 @@ export default function OurServices() {
           </div>
           <div className="row services-row">
             <div className="one-half column">
-              <h3>Parties & Weddings</h3>
-              <p>An eye in the sky to capture the drama of events as they unfold<br/>
-              <small>(Image is representative)</small></p>
-              <img className="u-max-full-width" src="images/portfolio-7.jpg" />
-            </div>
-            <div className="one-half column">
-              <h3>Real Estate</h3>
-              <p>Promotional imagery of your buildings from a unique angle</p>
-              <img className="u-max-full-width" src="images/portfolio-2.jpg" />
-            </div>
-          </div>
-          <div className="row services-row">
-            <div className="one-half column">
               <h3>Building Surveys</h3>
               <p>
                 A fast, affordable, low risk way of inspecting hard to reach areas.
@@ -46,6 +33,19 @@ export default function OurServices() {
                 Images, videos, and time-lapse packages.
               </p>
               <img className="u-max-full-width" src="images/portfolio-4.jpg" />
+            </div>
+          </div>
+          <div className="row services-row">
+            <div className="one-half column">
+              <h3>Parties & Weddings</h3>
+              <p>An eye in the sky to capture the drama of events as they unfold<br/>
+              <small>(Image is representative)</small></p>
+              <img className="u-max-full-width" src="images/portfolio-7.jpg" />
+            </div>
+            <div className="one-half column">
+              <h3>Real Estate</h3>
+              <p>Promotional imagery of your buildings from a unique angle</p>
+              <img className="u-max-full-width" src="images/portfolio-2.jpg" />
             </div>
           </div>
           <div className="row services-row">

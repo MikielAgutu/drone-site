@@ -8,18 +8,14 @@ export default function Contact() {
           <h1 className="section-heading">Contact</h1>
           <hr />
           <p>
-            To enquire about our services, or for any other question, you can contact us
-            via the following channels:
+            To enquire about our services, or for any other question
             <br />
-            <strong>
-              Email:{" "}
-              <a href="mailto:contact.rmaerial@gmail.com">
-                contact.rmaerial@gmail.com
-              </a>
-            </strong>
+            </p>
+            <h3>
+            📧 {" "} <a href="mailto:contact.rmaerial@gmail.com">contact.rmaerial@gmail.com</a>
+            </h3>
             <br />
-            <strong>Mobile: 07518123870</strong>
-          </p>
+            <h3>☎️ 07518123870</h3>
         </div>
       </div>
     </Layout>
